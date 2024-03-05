@@ -5,5 +5,4 @@ class Asignatura:
         self._salon = salon
 
     def __str__(self):
-        if self._nombre is not None:
             return f"{self._nombre} {self._salon}"
