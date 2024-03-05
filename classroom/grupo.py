@@ -26,7 +26,7 @@ class Grupo:
 
     def __str__(self):
         if self._grupo is not None:
-            return f"Grupo de estudiantes: {self._grupo}"
+            return f"Grupo de estudiantes:{self._grupo}"
 
     @ classmethod
     def asignarNombre(cls, nombre="Grado 6"):
