@@ -30,3 +30,4 @@ def testConstructorGrupo():
         ok = True
     
     assert(ok)
+
